@@ -11,9 +11,10 @@ def directors_totals(nds)
   director_name = nds[counter][:name]
   total[director_name] = 0
   director_movies = director_hash[:movies]
-  while counter < director_movies.length do
-  
-  end 
+   movies_counter = 0 
+   while counter < director_movies.length do
+    movies_counter
+   end 
    counter +=1
 end
   # counter = 0 
