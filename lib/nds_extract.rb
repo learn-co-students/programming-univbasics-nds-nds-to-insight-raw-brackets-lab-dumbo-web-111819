@@ -14,7 +14,8 @@ def directors_totals(nds)
    movies_counter = 0 
    while movies_counter < director_movies.length do
     movie_hash = director_movies[movies_counter]
-    movie_hash[:worldwide_gross] = movie_total
+     movie_total = movie_hash[:worldwide_gross] 
+     total[director_name] += movie_total
     movies_counter +=1
    end 
    counter +=1
