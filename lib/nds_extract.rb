@@ -2,12 +2,12 @@ $LOAD_PATH.unshift(File.dirname(__FILE__))
 require 'directors_database'
 
 def directors_totals(nds)
-   pp nds
+  # pp nds
   # movies = nds[0][:worldwide_gross]
   counter = 0 
   total = {}
   while counter < nds.length do 
-    director_hash = nds[counter]
+   director_hash = nds[counter]
   director_name = nds[counter][:name]
   total[director_name] = 0
   director_movies = director_hash[:movies]
