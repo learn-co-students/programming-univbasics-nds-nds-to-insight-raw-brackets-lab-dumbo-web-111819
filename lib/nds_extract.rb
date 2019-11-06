@@ -20,7 +20,9 @@ def directors_totals(nds)
    end 
    counter +=1
 end
+total
 end
+
   # counter = 0 
   # grand_total = 0 
   # while counter < movies.length do 
